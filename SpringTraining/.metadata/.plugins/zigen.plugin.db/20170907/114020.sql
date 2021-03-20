@@ -1,0 +1,1 @@
+CREATE TABLE hi(id int PRIMARY KEY);

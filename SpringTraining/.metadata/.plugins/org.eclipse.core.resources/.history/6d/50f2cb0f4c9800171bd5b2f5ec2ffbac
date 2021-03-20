@@ -1,0 +1,17 @@
+function getImage(url) {
+	return new Promise(function(resolve, reject) {
+		
+	})
+}
+
+
+function testPromise() {
+	getImage('micky.png').then(
+			function(successurl) {
+				document.getElementById('cnt').innerHTML = '<img src="'+successurl+'"/>';
+			},
+			function(errorurl) {
+				console.log('Error loading ' + errorurl)
+			}
+	)
+}

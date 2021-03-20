@@ -1,0 +1,15 @@
+package com.capgemini.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.capgemini.pojo.Account;
+
+@org.springframework.web.bind.annotation.RestController
+public class RestController {
+
+	@GetMapping("/listAll")
+	public ResponseEntity<Account> getAllAccounts() {
+		return null;
+	}
+}

@@ -1,0 +1,36 @@
+
+~squid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.(ÝŒÑ8ú¬À¦ç+Hþ9RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(×•ï¼8†­ÿ ç+Hâ-RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Æ¥³ßüÿÿÿÿ8êø¯¥ç+Hß7RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(¶ú¬ˆ8œÆ¦ç+HŸ:RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ž®Àñûÿÿÿÿ8ç¤¿¦ç+Hö9RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(öìÅÚûÿÿÿÿ8Ùû½ ç+HØ-RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(÷ý¼¿ûÿÿÿÿ8»ý‘ ç+HÛ-RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(·µåóúÿÿÿÿ8®ß¯ ç+HÜ-RMAJORZ
+CODE_SMELL
+q
+squid:S106;"9Replace this use of System.out or System.err by a logger.(„¦®ñøÿÿÿÿ8Œ“Ÿ§ç+H„;RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¹«•‹ÿÿÿÿÿ8»ý‘ ç+HÝ-RMAJORZ
+CODE_SMELL
+¿%squid:RedundantThrowsDeclarationCheck"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(ˆ…­Å8ç¤¿¦ç+Hõ9RMINORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(†²§„ÿÿÿÿÿ8½é¢£ç+Hã-RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine0"<This block of commented-out lines of code should be removed.(ÿÄÊ£ùÿÿÿÿ8”‹æ ç+Hå-RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ƒýæìøÿÿÿÿ8ç¤¿¦ç+H÷9RMAJORZ
+CODE_SMELL
+~squid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(Ê˜Š;8ÁãÄ ç+HÚ-RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(ñ­§áýÿÿÿÿ8Œ´Ê ç+HÙ-RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine@"<This block of commented-out lines of code should be removed.(üèß†8ÝãÃ¦ç+H:RMAJORZ
+CODE_SMELL

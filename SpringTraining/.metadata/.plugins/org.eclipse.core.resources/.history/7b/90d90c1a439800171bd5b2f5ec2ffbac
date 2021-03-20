@@ -1,0 +1,19 @@
+function letExample() {
+	let links = document.getElementsByTagName('a');
+	for(let i = 0; i < links.length; i++) {
+		links[i].onclick = function() {
+			alert('You clicked on link ' + (i+1));
+		}
+	}
+}
+
+/*function test() {
+	console.log(dog);	//reference error
+	let dog = 'spotty';
+}*/
+
+function test2() {
+	console.log(dog); 	//returns undefined
+	var dog= 'spotty';	//var dog is auto-hoisted to the top
+	console.log(dog);	//returns spotty
+}

@@ -1,0 +1,20 @@
+package com.capgemini.manytomany;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+
+@Entity
+public class Delegate {
+	
+	@Id
+	private int delegateId;
+	private String delegateName;
+	@ManyToMany
+	private List<Event> events = new ArrayList<>();
+	
+	
+}

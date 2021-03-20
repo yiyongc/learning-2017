@@ -1,0 +1,9 @@
+package com.capgemini.inheritance;
+
+public class Project {
+	
+	private projectId;
+	private projectName;
+	
+
+}

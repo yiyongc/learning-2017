@@ -1,0 +1,21 @@
+package com.capgemini.pojo;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Employee {
+
+	private int empId;
+	private String firstName;
+	private String lastName;
+	private Date dateOfBirth;
+	private String email;
+	private double salary;
+	private String address;
+	private String gender;
+	//department
+	//company
+	
+}

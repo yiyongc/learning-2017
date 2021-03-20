@@ -1,0 +1,22 @@
+package com.capgemini.dao;
+
+import org.springframework.stereotype.Repository;
+
+import com.capgemini.pojo.Employee;
+
+@Repository("employeeDao")
+public abstract class EmployeeDaoImpl implements EmployeeDao {
+
+	@Override
+	public void update(Employee employee) {
+		Employee emp = findOne(employee.getEmpId());
+		emp.setFirstName(employee.getFirstName());
+		emp.setLastName(employee.getLastName());
+		emp.setDateOfBirth(employee.getDateOfBirth());
+		emp.setAddress(employee.getAddress());
+		emp.setEmail(employee.getEmail());
+		emp.setSalary(employee.getSalary());
+		emp.setGender(employee.getGender());
+	}
+
+}

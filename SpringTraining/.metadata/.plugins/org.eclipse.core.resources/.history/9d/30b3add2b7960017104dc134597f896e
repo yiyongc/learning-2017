@@ -1,0 +1,22 @@
+package com.capgemini.dao;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
+
+import org.springframework.stereotype.Repository;
+
+import com.capgemini.pojo.Login;
+
+@Repository("employeeDao")
+public class EmployeeDaoImpl implements IEmployeeDao {
+
+	@PersistenceContext
+	private EntityManager em;
+	
+	@Override
+	public boolean isValidUser(Login login) {
+		Query query = em.createQuery("")
+	}
+
+}

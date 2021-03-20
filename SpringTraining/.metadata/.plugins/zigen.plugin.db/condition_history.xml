@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_131" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.event</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>event</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.product</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>product</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.employee_phonenumbers</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>employee_phonenumbers</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springdatatest.springdatatest.employee</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springdatatest</string>
+    </void>
+    <void property="schema">
+     <string>springdatatest</string>
+    </void>
+    <void property="table">
+     <string>employee</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.employee_otm</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>employee_otm</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.account</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>account</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.employee_infomation</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>employee_infomation</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.module_modulenames</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>module_modulenames</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test?autoReconnect=true&amp;useSSL=false.springjpa_test.employee</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test?autoReconnect=true&amp;useSSL=false</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>employee</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springprojecttest.springprojecttest.login</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springprojecttest</string>
+    </void>
+    <void property="schema">
+     <string>springprojecttest</string>
+    </void>
+    <void property="table">
+     <string>login</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.address</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList" id="ArrayList0"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>address</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.employees</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <string></string>
+      </void>
+      <void method="add">
+       <string>empId = 13</string>
+      </void>
+     </object>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>employees</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.address</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object idref="ArrayList0"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>address</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.project</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>project</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.task</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>task</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.customer</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList" id="ArrayList1"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>customer</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.delegate</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>delegate</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.hi</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>hi</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springprojecttest.springprojecttest.loginusers</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springprojecttest</string>
+    </void>
+    <void property="schema">
+     <string>springprojecttest</string>
+    </void>
+    <void property="table">
+     <string>loginusers</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test?autoReconnect=true&amp;useSSL=false.springjpa_test.employees</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test?autoReconnect=true&amp;useSSL=false</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>employees</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.employee_information</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>employee_information</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.customer</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object idref="ArrayList1"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>customer</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.company</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>company</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.module</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>module</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.task_tasknames</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>task_tasknames</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springprojecttest.springprojecttest.users</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springprojecttest</string>
+    </void>
+    <void property="schema">
+     <string>springprojecttest</string>
+    </void>
+    <void property="table">
+     <string>users</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.hibernate_sequence</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>hibernate_sequence</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.account</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>account</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.customerwithembeddedaddress</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>customerwithembeddedaddress</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost:3306/springjpa_test.springjpa_test.event_delegate</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost:3306/springjpa_test</string>
+    </void>
+    <void property="schema">
+     <string>springjpa_test</string>
+    </void>
+    <void property="table">
+     <string>event_delegate</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

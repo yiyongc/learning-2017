@@ -1,0 +1,16 @@
+package com.capgemini.onetomany;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.OneToMany;
+
+import com.capgemini.pojo.Employee;
+
+public class Company {
+
+	private int companyId;
+	private String companyName;
+	@OneToMany
+	private List<Employee> employees = new ArrayList<>();
+}

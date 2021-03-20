@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Adding two numbers</title>
+<script type="text/javascript" src="script/arrowfn.js"></script>
+</head>
+<body>
+<form>
+	<table>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><button onclick="compute()">ADD NUMBERS!</button></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>

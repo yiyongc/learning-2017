@@ -1,0 +1,8 @@
+package com.capgemini.boot;
+
+public class MainForCriteria {
+
+	public static void main(String[] args) {
+		
+	}
+}

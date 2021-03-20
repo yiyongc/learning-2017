@@ -1,0 +1,17 @@
+
+bsquid:S1989t"&Add a "try/catch" block for "forward".(¦õç¸úÿÿÿÿ8ö•îâ+HRMINORZVULNERABILITY
+bsquid:S1989r"&Add a "try/catch" block for "forward".(ØØ‰øÿÿÿÿ8ö•îâ+H RMINORZVULNERABILITY
+^squid:S1989"'Add a "try/catch" block for "parseInt".(«¨ÛÏ8¼Òûèâ+HŸRMINORZVULNERABILITY
+„squid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(›óÈ8ëÚËíâ+HõRMAJORZBUG
+bsquid:S1989t"&Add a "try/catch" block for "forward".(¦õç¸úÿÿÿÿ8ö•îâ+HŸRMINORZVULNERABILITY
+dsquid:S1989"(Add a "try/catch" block for "getWriter".(ïô†úÿÿÿÿ8Ê›áëâ+HîRMINORZVULNERABILITY
+Œsquid:S1192-"PDefine a constant instead of duplicating this literal "'></input></td>" 4 times.(‚àˆÙûÿÿÿÿ8”¿ìâ+HäRCRITICALZ
+CODE_SMELL
+‚squid:S1192/"FDefine a constant instead of duplicating this literal "</tr>" 7 times.(¬…Îáıÿÿÿÿ8°Ü›ìâ+HŞRCRITICALZ
+CODE_SMELL
+‚squid:S1192:"FDefine a constant instead of duplicating this literal "</td>" 3 times.(¦úÕ”úÿÿÿÿ8°Ü›ìâ+HİRCRITICALZ
+CODE_SMELL
+squid:S11922"XDefine a constant instead of duplicating this literal "<td style='padding:10'>" 3 times.(Ï°¨8°Ü›ìâ+HÜRCRITICALZ
+CODE_SMELL
+^squid:S1989l"'Add a "try/catch" block for "parseInt".(ø‰µ³8‰ñåíâ+HRMINORZVULNERABILITY
+bsquid:S1989r"&Add a "try/catch" block for "forward".(ØØ‰øÿÿÿÿ8ö•îâ+HRMINORZVULNERABILITY

@@ -1,0 +1,22 @@
+
+q
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ä²ÿÈùÿÿÿÿ8¿Óá÷æ+HÐ7RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(é–ðœ8’œ÷æ+HÑ7RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(íŒ³Ýøÿÿÿÿ8ÅõÇöæ+HÒ7RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ñãˆù8ÅõÇöæ+HÓ7RMAJORZ
+CODE_SMELL
+~squid:S2133"JRemove this object instantiation and use "SimpleDateFormat.class" instead.(Ëûªª8Å½¶÷æ+HÔ7RMAJORZ
+CODE_SMELL
+¿%squid:RedundantThrowsDeclarationCheck"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(ˆ…­Å8Å½¶÷æ+HÕ7RMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¾÷ê÷8è¶Éöæ+HÖ7RMAJORZ
+CODE_SMELL
+~squid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(Âƒë'8‡îØ÷æ+H×7RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(ÕÅ—¢8ïÿ´÷æ+HØ7RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(›µ‹ò8«©à÷æ+HÙ7RMAJORZ
+CODE_SMELL

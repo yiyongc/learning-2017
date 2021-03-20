@@ -1,0 +1,9 @@
+
+‹squid:S1450"WRemove the "jdbcCall" field and declare it as a local variable in the relevant methods.(„å„8ªç–Öä+H¶RMINORZ
+CODE_SMELL
+l
+squid:S106""9Replace this use of System.out or System.err by a logger.(ö˜¡È8ÿ®¡¸ã+H×RMAJORZ
+CODE_SMELL
+r
+squid:S106†"9Replace this use of System.out or System.err by a logger.(‚Î“Êüÿÿÿÿ8ı®§Öä+HÏRMAJORZ
+CODE_SMELL

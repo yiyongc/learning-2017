@@ -1,0 +1,13 @@
+package com.capgemini.service;
+
+import com.capgemini.pojo.Product;
+
+public class ProductServiceImpl implements IProductService {
+
+	@Override
+	public void createProduct(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

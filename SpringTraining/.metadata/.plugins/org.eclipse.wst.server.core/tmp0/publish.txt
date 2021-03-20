@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Sep 12 15:25:26 SGT 2017
+org.eclipse.jst.jee.server\:/binary\:D\:\\Repo\\org\\springframework\\spring-web\\4.3.0.RELEASE\\spring-web-4.3.0.RELEASE.jar=WEB-INF/lib/spring-web-4.3.0.RELEASE.jar
+org.eclipse.jst.j2ee.server\:/binary\:D\:\\Repo\\org\\springframework\\spring-web\\4.3.0.RELEASE\\spring-web-4.3.0.RELEASE.jar=WEB-INF/lib/spring-web-4.3.0.RELEASE.jar

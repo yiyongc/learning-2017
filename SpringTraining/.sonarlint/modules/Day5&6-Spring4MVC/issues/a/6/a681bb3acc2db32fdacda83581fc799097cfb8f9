@@ -1,0 +1,13 @@
+
+squid:S11922"LDefine a constant instead of duplicating this literal "occupations" 3 times.(¯Ñ•ÀşÿÿÿÿHÀ;RCRITICALZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(Ñ…¿—HÁ;RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(³±„üÿÿÿÿHÂ;RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(·Ú›âHÃ;RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine`"<This block of commented-out lines of code should be removed.(³±„üÿÿÿÿHÄ;RMAJORZ
+CODE_SMELL
+~squid:S11925"IDefine a constant instead of duplicating this literal "register" 3 times.(ã‹¥œúÿÿÿÿHÅ;RCRITICALZ
+CODE_SMELL

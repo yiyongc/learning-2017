@@ -1,0 +1,12 @@
+127.0.0.1 - - [12/Sep/2017:09:49:44 +0800] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Sep/2017:09:49:47 +0800] "GET /Day10-SpringMVC/ HTTP/1.1" 200 934
+0:0:0:0:0:0:0:1 - - [12/Sep/2017:09:49:50 +0800] "POST /Day10-SpringMVC/loginForm HTTP/1.1" 200 311
+127.0.0.1 - - [12/Sep/2017:15:21:59 +0800] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Sep/2017:15:22:02 +0800] "GET /Day11-SpringMVCwithData/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [12/Sep/2017:15:22:48 +0800] "GET /Day11-SpringMVCwithData/ HTTP/1.1" 200 57
+127.0.0.1 - - [12/Sep/2017:15:24:26 +0800] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Sep/2017:15:24:27 +0800] "GET /Day11-SpringMVCwithData/ HTTP/1.1" 500 18498
+127.0.0.1 - - [12/Sep/2017:15:25:50 +0800] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Sep/2017:15:25:52 +0800] "GET /Day11-SpringMVCwithData/ HTTP/1.1" 200 934
+0:0:0:0:0:0:0:1 - - [12/Sep/2017:15:25:57 +0800] "POST /Day11-SpringMVCwithData/loginForm HTTP/1.1" 200 311
+0:0:0:0:0:0:0:1 - - [12/Sep/2017:15:26:04 +0800] "POST /Day11-SpringMVCwithData/loginForm HTTP/1.1" 200 312

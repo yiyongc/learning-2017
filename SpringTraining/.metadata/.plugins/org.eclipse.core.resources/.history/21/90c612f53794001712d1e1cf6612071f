@@ -1,0 +1,6 @@
+package com.capgemini.inheritance;
+
+public class Module extends Project {
+	
+	private String moduleName;
+}

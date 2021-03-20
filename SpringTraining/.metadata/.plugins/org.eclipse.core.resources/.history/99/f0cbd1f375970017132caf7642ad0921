@@ -1,0 +1,29 @@
+package com.capgemini.dao;
+
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.capgemini.pojo.Employee;
+
+@Repository("employeeDao")
+public interface EmployeeDao extends CrudRepository<Employee, Integer>{
+
+	public List<Employee> findByFirstName(String firstName);
+
+	public List<Employee> findByFirstNameAndLastName(String firstName, String lastName);
+
+	public List<Employee> findByFirstNameIgnoreCase(String firstName);
+
+	public List<Employee> findByFirstNameOrSalary(String firstName, double salary);
+
+	public Employee getByEmpId(int empId);
+
+	public List<Employee> readByGender(String gender);
+
+	public long countByGender(String gender);
+
+	public List<Employee> findDistinctByGender(String gender);
+	
+}

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>First JavaScript Application</title>
+<script type="text/javascript" src="script/myscript.js"></script>
+</head>
+<body onload="test()">
+<h1>Welcome to JavaScript!</h1>
+</body>
+</html>

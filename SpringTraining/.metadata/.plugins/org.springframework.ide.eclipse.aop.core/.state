@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="Day7-SpringAOP"/>
+<aop-project name="Day4-SpringDemo"/>
+<aop-project name="Day5&amp;6-Spring4MVC"/>
+<aop-project name="Day10-JPAIntegrationDemo"/>
+<aop-project name="Day11-SpringData"/>
+<aop-project name="Day3-SpringCore"/>
+<aop-project name="Day4-JavaConfigDemo"/>
+<aop-project name="Day11-SpringMVCwithData"/>
+<aop-project name="Day10-SpringMVC"/>
+<aop-project name="Day5-Spring3MVC"/>
+<aop-project name="Day4-SpringJDBCDemo"/>
+</aop-reference-model>

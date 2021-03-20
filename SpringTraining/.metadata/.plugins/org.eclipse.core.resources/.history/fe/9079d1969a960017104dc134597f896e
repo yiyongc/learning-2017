@@ -1,0 +1,31 @@
+package com.capgemini.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import org.springframework.stereotype.Repository;
+
+import com.capgemini.pojo.Product;
+
+@Repository
+public class ProductDaoImpl implements IProductDao {
+
+	@PersistenceContext
+	private EntityManager em;
+	
+	@Override
+	public void createProduct(Product product) {
+		em.persist(product);
+	}
+
+	@Override
+	public void persistAllProducts(List<Product> products) {
+//		for(Product product : products) {
+//			em.persist(product);
+//		}
+		em.persist(products);
+	}
+
+}

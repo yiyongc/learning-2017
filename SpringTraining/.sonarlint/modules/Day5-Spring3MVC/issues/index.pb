@@ -1,0 +1,19 @@
+
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+]
+-src/main/webapp/WEB-INF/springmvc-servlet.xml,6\f\6f1abf82135190eccbb90b523cfa4d8aeb5a1143
+S
+#src/main/webapp/pages/helloPage.jsp,a\c\aca076f2aefb2ec562f4ad11fb31bd5ed4ce786e
+I
+src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded
+]
+-src/main/java/com/capgemini/pojo/Account.java,8\b\8b33f779d4b771bae32654471148d323c478ffbe
+R
+"src/main/webapp/pages/register.jsp,1\0\106d036f90177a601daf026083638d839c6243d8
+Z
+*src/main/webapp/pages/showRegistration.jsp,f\4\f47391df50bbb427fb5de9e1ea0b696f49d9e84a
+O
+src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+k
+;src/main/java/com/capgemini/controller/HelloController.java,8\1\810154e4479b0c4f7797afe45ed300192c3c51c0

@@ -1,0 +1,20 @@
+package com.capgemini.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capgemini.dao.IProductDao;
+import com.capgemini.pojo.Product;
+
+@Service("productService")
+public class ProductServiceImpl implements IProductService {
+	
+	@Autowired
+	IProductDao productDao;
+
+	@Override
+	public void createProduct(Product product) {
+		productDao.createProduct(product);
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.capgemini.onetomany;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
+@Entity
+public class EmployeeMTM {
+
+	@Id
+	@GeneratedValue
+	private int empId;
+	private String firstName;
+	private String lastName;
+	@ManyToOne
+	private Company company;
+}

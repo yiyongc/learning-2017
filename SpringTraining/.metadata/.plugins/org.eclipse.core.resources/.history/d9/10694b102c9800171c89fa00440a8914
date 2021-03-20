@@ -1,0 +1,12 @@
+function test() {
+	alert("Hello world");
+};
+
+function letDemo() {
+	let age=25;
+	if(new Date().getFullYear() == 2017) {
+		age = 32;
+		console.log(age);
+	}
+	console.log(age);
+};

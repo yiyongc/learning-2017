@@ -1,0 +1,5 @@
+package com.capgemini.aspects;
+
+public class Logging {
+
+}

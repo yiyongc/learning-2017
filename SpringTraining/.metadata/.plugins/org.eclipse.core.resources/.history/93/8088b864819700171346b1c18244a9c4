@@ -1,0 +1,55 @@
+package com.capgemini.config;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.core.env.Environment;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.orm.jpa.JpaTransactionManager;
+import org.springframework.orm.jpa.LocalEntityManagerFactoryBean;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+@Configuration
+@EnableTransactionManagement
+@ComponentScan("com.capgemini")
+@EnableJpaRepositories(basePackages = "com.capgemini.dao")
+public class JavaSpringConfig {
+
+	@Autowired
+	private Environment env;
+	
+	@Bean
+	public DataSource getDataSource() {
+		DriverManagerDataSource ds = new DriverManagerDataSource();
+		
+		ds.setDriverClassName(env.getProperty("jdbc.driverClass"));
+		ds.setUrl(env.getProperty("jdbc.url"));
+		ds.setUsername(env.getProperty("jdbc.username"));
+		ds.setPassword(env.getProperty("jdbc.password"));
+		
+		return ds;
+	}
+	
+	@Bean
+	public LocalEntityManagerFactoryBean getEntityManagerFactoryBean() {
+		
+		LocalEntityManagerFactoryBean factoryBean = new LocalEntityManagerFactoryBean();
+		factoryBean.setPersistenceUnitName("jpademo");
+		
+		return factoryBean;
+	}
+	
+	@Bean
+	public JpaTransactionManager getJpaTransactionManager() {
+		
+		JpaTransactionManager transactionManager = new JpaTransactionManager();
+		transactionManager.setEntityManagerFactory(getEntityManagerFactoryBean().getObject());
+		
+		return transactionManager;
+	}
+	
+}

@@ -1,0 +1,7 @@
+
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ý¢ûÿÿÿÿ8ìÚÏÿæ+HÐ#RMAJORZ
+CODE_SMELL
+Ysquid:S2068" Remove this hard-coded password.(•Ðñ¹8Óãüæ+HÁ#RBLOCKERZVULNERABILITY
+rsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(œ®Ûç8¾Ç¿üæ+H¼#RMINORZ
+CODE_SMELL

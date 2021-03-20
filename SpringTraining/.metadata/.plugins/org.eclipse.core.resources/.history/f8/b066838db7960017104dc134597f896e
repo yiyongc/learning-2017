@@ -1,0 +1,13 @@
+package com.capgemini.service;
+
+import com.capgemini.pojo.Login;
+
+public class EmployeeServiceImpl implements IEmployeeService {
+
+	@Override
+	public boolean isValidUser(Login login) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

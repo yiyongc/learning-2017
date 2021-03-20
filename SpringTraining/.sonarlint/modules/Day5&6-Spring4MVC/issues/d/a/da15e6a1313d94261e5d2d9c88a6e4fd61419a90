@@ -1,0 +1,16 @@
+
+j
+squid:S106e"9Replace this use of System.out or System.err by a logger.(”Ê’ÌûÿÿÿÿHÍ;RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(ðºÓÞüÿÿÿÿ8Íê¦°å+HÎ;RMAJORZ
+CODE_SMELL
+e
+squid:S1066"9Replace this use of System.out or System.err by a logger.(¢™‰€HÏ;RMAJORZ
+CODE_SMELL
+e
+squid:S106H"9Replace this use of System.out or System.err by a logger.(¤€¾ÏHÐ;RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ž‰¥©üÿÿÿÿ8Íê¦°å+HÑ;RMAJORZ
+CODE_SMELL
+Wsquid:S00108S")Either remove or fill this block of code.(àÞÀüHÒ;RMAJORZ
+CODE_SMELL

@@ -1,0 +1,15 @@
+package com.capgemini.onetomany;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class EmployeeMTM {
+
+	@Id
+	@GeneratedValue
+	private int empId;
+	private String firstName;
+	private String lastName;
+}

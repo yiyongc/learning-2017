@@ -1,0 +1,40 @@
+package com.capgemini.inheritance;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Module extends Project {
+	
+	private int moduleId;
+	private String moduleName;
+	
+	public Module() {}
+	
+	public Module(int id, String moduleName) {
+		this.moduleId = id;
+		this.moduleName = moduleName;
+	}
+
+	public int getModuleId() {
+		return moduleId;
+	}
+
+	public void setModuleId(int moduleId) {
+		this.moduleId = moduleId;
+	}
+
+	@Override
+	public String toString() {
+		return "Module [moduleName=" + moduleName + "]";
+	}
+
+	public String getModuleName() {
+		return moduleName;
+	}
+
+	public void setModuleName(String moduleName) {
+		this.moduleName = moduleName;
+	}
+	
+	
+}

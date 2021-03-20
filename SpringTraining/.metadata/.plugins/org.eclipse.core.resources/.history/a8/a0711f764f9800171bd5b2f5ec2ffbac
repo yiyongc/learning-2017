@@ -1,0 +1,39 @@
+function getImage(url) {
+	return new Promise(function(resolve, reject) {
+		var img = new Image();
+		img.onload = function() {
+			resolve(url);
+		}
+		img.onerror = function() {
+			reject(url);
+		}
+		img.src = url
+	})
+}
+
+
+function testPromise() {
+	getImage('chawanmushi.jpg').then(
+			function(successurl) {
+				document.getElementById('cnt').innerHTML = '<img src="'+successurl+'"/>';
+			},
+			function(errorurl) {
+				console.log('Error loading ' + errorurl);
+			}
+	)
+}
+
+
+function testPromise2() {
+	getImage('../chawanmushi.jpg').then(
+			function(successurl) {
+				document.getElementById('cnt').innerHTML = '<img src="' + successurl + '"/>';
+			}
+	).catch(function(errorurl) {
+		console.log('Error loading ' + errorurl);
+	})
+}
+
+function demo1() {
+	
+}

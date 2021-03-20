@@ -1,0 +1,10 @@
+function compute() {
+	var num1 = parseInt(formAdd.num1.value);
+	var num2 = parseInt(formAdd.num2.value);
+	var sum = ((x,y)=>x+y)(num1,num2);
+	
+	formAdd.sum.value = sum;
+	alert(sum);
+	
+}
+

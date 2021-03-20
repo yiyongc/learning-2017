@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BookRowMapper.java&apos; to &apos;Day5-Spring4MVC/src/main/java/com.capgemini.util&apos;&#x0D;&#x0A;- Original project: &apos;Day4-SpringJDBCDemo&apos;&#x0D;&#x0A;- Destination element: &apos;Day5-Spring4MVC/src/main/java/com.capgemini.util&apos;&#x0D;&#x0A;- Original element: &apos;com.capgemini.util.BookRowMapper.java&apos;" description="Copy compilation unit" destination="=Day5-Spring4MVC/src\/main\/java&lt;com.capgemini.util" element1="/src\/main\/java&lt;com.capgemini.util{BookRowMapper.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1504590902936" units="1" version="1.0"/>
+</session>

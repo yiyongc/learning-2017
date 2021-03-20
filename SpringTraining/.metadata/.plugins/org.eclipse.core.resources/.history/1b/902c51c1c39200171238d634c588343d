@@ -1,0 +1,24 @@
+package com.capgemini.boot;
+
+import java.util.List;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.capgemini.dao.IEmployeeDao;
+import com.capgemini.pojo.Employee;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+		
+		IEmployeeDao employeeDao = (IEmployeeDao) context.getBean("employeeDao");
+		
+		List<Employee> employees = employeeDao.getAllEmployees();
+		
+		for (Employee emp : employees) {
+			System.out.println(emp);
+		}
+	}
+
+}

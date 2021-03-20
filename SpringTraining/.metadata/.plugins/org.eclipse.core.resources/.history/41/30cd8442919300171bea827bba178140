@@ -1,0 +1,75 @@
+package com.capgemini.pojo;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Account {
+
+	
+	private String accountName;
+	private Date openDate;
+	private double balance;
+	
+	public Account() {}
+
+	public Account(int accountId, int customerId, String accountName, Date openDate, double balance) {
+		this.accountId = accountId;
+		this.customerId = customerId;
+		this.accountName = accountName;
+		this.openDate = openDate;
+		this.balance = balance;
+	}
+
+	@Override
+	public String toString() {
+		return "Account [accountId=" + accountId + ", customerId=" + customerId + ", accountName=" + accountName
+				+ ", openDate=" + openDate + ", balance=" + balance + "]";
+	}
+
+	public int getAccountId() {
+		return accountId;
+	}
+
+	public void setAccountId(int accountId) {
+		this.accountId = accountId;
+	}
+
+	public int getCustomerId() {
+		return customerId;
+	}
+
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+
+	public String getAccountName() {
+		return accountName;
+	}
+
+	public void setAccountName(String accountName) {
+		this.accountName = accountName;
+	}
+
+	public Date getOpenDate() {
+		return openDate;
+	}
+
+	public void setOpenDate(Date openDate) {
+		this.openDate = openDate;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+	
+	
+	
+	
+}

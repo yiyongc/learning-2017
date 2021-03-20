@@ -1,0 +1,7 @@
+package com.capgemini.inheritance;
+
+public class Task extends Module {
+
+	private String taskName;
+	
+}

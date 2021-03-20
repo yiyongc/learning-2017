@@ -1,0 +1,38 @@
+
+xsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ë´ëHâ!RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÝËÏ¨þÿÿÿÿHæ!RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(€æ•šùÿÿÿÿHé!RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLineK"<This block of commented-out lines of code should be removed.(‚Ê·¥úÿÿÿÿHå!RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(´¨µHä!RMAJORZ
+CODE_SMELL
+j
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍþÿÿÿÿHñ!RMAJORZ
+CODE_SMELL
+wsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(š§ßHá!RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.( úÀöHí!RMAJORZ
+CODE_SMELL
+wsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(õ¦—+Hè!RMAJORZ
+CODE_SMELL
+wsquid:S2133"JRemove this object instantiation and use "SimpleDateFormat.class" instead.(ËûªªHë!RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLineG"<This block of commented-out lines of code should be removed.(†Ú†âHï!RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(ÙÕÎŽHã!RMAJORZ
+CODE_SMELL
+¸%squid:RedundantThrowsDeclarationCheck"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(ˆ…­ÅHê!RMINORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine7"<This block of commented-out lines of code should be removed.(ï·çêøÿÿÿÿHç!RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(§øŸðûÿÿÿÿHà!RMAJORZ
+CODE_SMELL
+wsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(¨¨ç'Hð!RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(ý›¼›Hì!RMAJORZ
+CODE_SMELL
+wsquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(«›‡!Hî!RMAJORZ
+CODE_SMELL

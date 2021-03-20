@@ -1,0 +1,16 @@
+package com.capgemini.pojo;
+
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Customer {
+
+	@Id
+	private int custId;
+	private String firstName;
+	private String lastName;
+	@Embedded
+	private Address address;
+}

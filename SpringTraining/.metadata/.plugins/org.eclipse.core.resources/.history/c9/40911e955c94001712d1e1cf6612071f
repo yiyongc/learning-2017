@@ -1,0 +1,39 @@
+package com.capgemini.boot;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.TypedQuery;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
+import javax.persistence.criteria.Selection;
+
+import com.capgemini.lifecycle.Employee;
+
+public class MainForCriteria {
+
+	public static void main(String[] args) {
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpademo");
+		EntityManager em = emf.createEntityManager();
+		
+		//Criteria
+		CriteriaBuilder cb = em.getCriteriaBuilder();
+		
+		CriteriaQuery<Employee> query = cb.createQuery(Employee.class);
+		Root<Employee> employee = query.from(Employee.class);
+		//query.select(employee).where(cb.equal(employee.get("firstName"), "fruit"));
+		query.select(employee).where(cb.greaterThan(employee.get("salary"), 3000), 
+				cb.equal(employee.get("isPermanent"), true));
+		
+		//Typed Query
+		TypedQuery<Employee> typedQuery = em.createQuery(query);
+		List<Employee> employees = (List<Employee>)typedQuery.getResultList();
+		
+		for(Employee e : employees)
+			System.out.println(e);
+		
+	}
+}

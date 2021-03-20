@@ -1,0 +1,18 @@
+function test() {
+	alert("Hello world");
+};
+
+function letDemo() {
+	let age=25;
+	if(new Date().getFullYear() == 2017) {
+		let age = 32;
+		console.log(age);
+	}
+	console.log(age);
+};
+
+/*function letDemo2() {
+	let myage=39;
+	let myname='Capgemini';
+	let myage=20;
+}*/

@@ -1,0 +1,6 @@
+package com.capgemini.controller;
+
+@RestController
+public class RestController {
+
+}

@@ -1,0 +1,19 @@
+package com.capgemini.aspects;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+
+@Aspect
+public class Logging {
+	
+	@Pointcut
+	public void myPointCut() {
+		
+	}
+	
+	@Before
+	public void beforeMethod() {
+		System.out.println("Before my method...");
+	}
+}

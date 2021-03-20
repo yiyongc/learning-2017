@@ -1,0 +1,11 @@
+package com.capgemini.dao;
+
+public class EmployeeDaoImpl implements IEmployeeDao {
+
+	@Override
+	public boolean isValidUser(String user, String password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

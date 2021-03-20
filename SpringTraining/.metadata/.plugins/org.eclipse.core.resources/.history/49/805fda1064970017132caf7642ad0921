@@ -1,0 +1,44 @@
+package com.capgemini.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+
+import com.capgemini.dao.EmployeeDao;
+import com.capgemini.pojo.Employee;
+
+@Service("employeeService")
+@Transactional
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Autowired
+	private EmployeeDao employeeDao;
+	
+	@Override
+	public void save(Employee employee) {
+		employeeDao.save(employee);
+	}
+	
+	@Override
+	public void saveAll(List<Employee> employees) {
+		employeeDao.save(employees);
+	}
+
+	@Override
+	public void delete(int empId) {
+		employeeDao.delete(empId);
+	}
+
+	@Override
+	public void delete(Employee employee) {
+		employeeDao.delete(employee);
+	}
+
+	@Override
+	public void update(Employee employee) {
+		employeeDao.update(employee);
+	}
+
+}

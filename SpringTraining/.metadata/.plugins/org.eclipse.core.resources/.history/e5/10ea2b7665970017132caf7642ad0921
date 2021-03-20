@@ -1,0 +1,16 @@
+package com.capgemini.dao;
+
+import org.springframework.stereotype.Repository;
+
+import com.capgemini.pojo.Employee;
+
+@Repository("employeeDao")
+public class EmployeeDaoImpl implements EmployeeDao {
+
+	@Override
+	public void update(Employee employee) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

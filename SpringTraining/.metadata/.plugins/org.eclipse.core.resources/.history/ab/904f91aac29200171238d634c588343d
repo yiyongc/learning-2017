@@ -1,0 +1,14 @@
+package com.capgemini.dao;
+
+import java.util.List;
+
+import com.capgemini.pojo.Employee;
+
+public class EmployeeDaoImpl implements IEmployeeDao {
+
+	public List<Employee> getAllEmployees() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

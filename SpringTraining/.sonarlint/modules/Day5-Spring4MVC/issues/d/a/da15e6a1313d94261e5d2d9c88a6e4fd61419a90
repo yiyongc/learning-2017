@@ -1,0 +1,12 @@
+
+^squid:S00108=")Either remove or fill this block of code.(àÞÀü8ÉÏÀ¨å+HüRMAJORZ
+CODE_SMELL
+l
+squid:S106 "9Replace this use of System.out or System.err by a logger.(¢™‰€8¸Ô›€å+HøRMAJORZ
+CODE_SMELL
+l
+squid:S1062"9Replace this use of System.out or System.err by a logger.(¤€¾Ï8ÔÅ°ˆå+HùRMAJORZ
+CODE_SMELL
+q
+squid:S106O"9Replace this use of System.out or System.err by a logger.(”Ê’Ìûÿÿÿÿ8’Œü…å+HúRMAJORZ
+CODE_SMELL

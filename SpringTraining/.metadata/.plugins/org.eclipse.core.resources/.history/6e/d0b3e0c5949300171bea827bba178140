@@ -1,0 +1,29 @@
+package com.capgemini.boot;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import com.capgemini.pojo.Address;
+import com.capgemini.pojo.Customer;
+
+public class MainForCustomer {
+
+	public static void main(String[] args) {
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpademo");
+		EntityManager em = emf.createEntityManager();
+		EntityTransaction et = em.getTransaction();
+		
+		Address add1 = new Address("6", "battery road", "Singapore");
+		Customer cust1 = new Customer("tom", "jerry", add1);
+		Customer cust2 = new Customer("tim", "tam", add1);
+		et.begin();
+		em.persist(cust1);
+		et.commit();
+		
+	}
+	
+	
+}
+

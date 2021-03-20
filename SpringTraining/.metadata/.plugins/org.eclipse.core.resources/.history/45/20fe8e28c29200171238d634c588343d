@@ -1,0 +1,6 @@
+package com.capgemini.dao;
+
+public interface IEmployeeDao {
+	
+	public List<Employee> getAllEmployees();
+}

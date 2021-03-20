@@ -1,0 +1,10 @@
+function compute() {
+	var x = formAdd.num1.value;
+	var y = formAdd.num2.value;
+	var sum = ((x,y)=>x+y)();
+	
+	
+	alert(sum);
+	
+}
+

@@ -1,0 +1,20 @@
+package com.capgemini.onetomany;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+@Entity
+public class EmployeeOTM {
+
+	@Id
+	@GeneratedValue
+	private int empId;
+	private String firstName;
+	private String lastName;
+	@ManyToOne(targetEntity=Company.class)
+	@JoinColumn(name="company_id_fk")
+	private Company company;
+}

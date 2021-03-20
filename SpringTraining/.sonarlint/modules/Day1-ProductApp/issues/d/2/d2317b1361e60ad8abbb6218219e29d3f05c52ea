@@ -1,0 +1,11 @@
+
+gsquid:S1161":Add the "@Override" annotation above this method signature(‹¨¯¿HæRMAJORZ
+CODE_SMELL
+]squid:S1989$"&Add a "try/catch" block for "forward".(êÒéš8À¼„åâ+HíRMINORZVULNERABILITY
+]squid:S1989'"&Add a "try/catch" block for "forward".(Ú€âò8ùÏ…åâ+HîRMINORZVULNERABILITY
+]squid:S1989$"&Add a "try/catch" block for "forward".(êÒéš8À¼„åâ+HìRMINORZVULNERABILITY
+squid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(ÌŒ´‘8ùÏ…åâ+HðRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(ÌŒ´‘8ùÏ…åâ+HñRMAJORZ
+CODE_SMELL
+]squid:S1989'"&Add a "try/catch" block for "forward".(Ú€âò8ùÏ…åâ+HïRMINORZVULNERABILITY

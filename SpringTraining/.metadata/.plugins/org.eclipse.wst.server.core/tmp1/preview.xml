@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8083">
+  <module context="Day12-JavaScriptES6" name="Day12-JavaScriptES6" path="D:/Workspaces/Phase3/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/Day12-JavaScriptES6" type="static"/>
+</server>

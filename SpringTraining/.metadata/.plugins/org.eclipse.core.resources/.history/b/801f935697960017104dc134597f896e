@@ -1,0 +1,13 @@
+package com.capgemini.dao;
+
+import com.capgemini.pojo.Product;
+
+public class ProductDaoImpl implements IProductDao {
+
+	@Override
+	public void createProduct(Product product) {
+		
+
+	}
+
+}

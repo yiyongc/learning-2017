@@ -1,0 +1,28 @@
+package com.capgemini.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.capgemini.pojo.Account;
+import com.capgemini.service.IAccountService;
+
+@org.springframework.web.bind.annotation.RestController
+public class RestController {
+
+	@Autowired
+	private IAccountService accService;
+	
+	@GetMapping("/listAll")
+	public ResponseEntity<Account> getAllAccounts() {
+		List<Account> accounts = accService.getAllAccounts();
+		
+		if (accounts = null) {
+			return new ResponseEntity("Sorry, unable to retrieve objects!", HttpStatus.NOT_FOUND);
+		}
+		return new ResponseEntity(accounts, HttpStatus.OK);
+	}
+}

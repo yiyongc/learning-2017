@@ -1,0 +1,8 @@
+function letExample() {
+	let links = document.getElementsByTagName('a');
+	for(let i = 0; i < links.length; i++) {
+		links[i].onclick = function() {
+			alert('You clicked on link ' + (i+1));
+		}
+	}
+}

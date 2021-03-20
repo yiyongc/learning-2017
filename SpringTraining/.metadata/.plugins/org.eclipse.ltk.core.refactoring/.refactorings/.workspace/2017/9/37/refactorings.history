@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 0 packages to &apos;Day10-JPAIntegrationDemo/src/main/java/com.capgemini.config&apos;&#x0D;&#x0A;- Destination element: &apos;Day10-JPAIntegrationDemo/src/main/java/com.capgemini.config&apos;" description="Copy packages" destination="=Day10-JPAIntegrationDemo/src\/main\/java&lt;com.capgemini.config" flags="589830" fragments="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1505195563134" version="1.0"/>
+</session>

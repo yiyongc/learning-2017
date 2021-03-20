@@ -1,0 +1,9 @@
+package com.capgemini.service;
+
+import com.capgemini.pojo.Product;
+
+public interface IProductService {
+
+	public void createProduct(Product product);
+	
+}

@@ -1,0 +1,23 @@
+package com.capgemini.boot;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.capgemini.config.JavaSpringConfig;
+import com.capgemini.pojo.Product;
+import com.capgemini.service.IProductService;
+
+public class MainForProduct {
+	
+	public static void main(String[] args) throws ParseException {
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(JavaSpringConfig.class);
+		IProductService productService = context.getBean(IProductService.class);
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
+		Product product = new Product("Product 1", "Testing product service", 1, 50.0, sdf.parse("09-11-2017"));
+		
+		productService.createProduct(product);
+	}
+
+}

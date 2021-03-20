@@ -1,0 +1,22 @@
+package com.capgemini.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.capgemini.dao.EmployeeDao;
+import com.capgemini.pojo.Employee;
+
+@Service("employeeService")
+@Transactional
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Autowired
+	private EmployeeDao employeeDao;
+	
+	@Override
+	public void save(Employee employee) {
+		employeeDao.save(employee);
+	}
+
+}

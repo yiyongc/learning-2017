@@ -1,0 +1,14 @@
+package com.capgemini.inheritance;
+
+public class Project {
+	
+	private int projectId;
+	private String projectName;
+	public Project() {
+		super();
+	}
+	
+	
+	
+
+}

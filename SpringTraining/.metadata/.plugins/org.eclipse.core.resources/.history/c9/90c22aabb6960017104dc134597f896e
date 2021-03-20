@@ -1,0 +1,7 @@
+package com.capgemini.dao;
+
+public interface IEmployeeDao {
+
+	public boolean isValidUser(String user, String password);
+	
+}

@@ -1,0 +1,13 @@
+package com.capgemini.pojo;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Login {
+
+	private int userId;
+	private String username;
+	private String password;
+	private String userType;
+	
+}

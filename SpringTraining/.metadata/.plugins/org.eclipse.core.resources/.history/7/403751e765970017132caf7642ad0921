@@ -1,0 +1,12 @@
+package com.capgemini.dao;
+
+import org.springframework.stereotype.Repository;
+
+import com.capgemini.pojo.Employee;
+
+@Repository("employeeDao")
+public abstract class EmployeeDaoImpl implements EmployeeDao {
+
+
+
+}

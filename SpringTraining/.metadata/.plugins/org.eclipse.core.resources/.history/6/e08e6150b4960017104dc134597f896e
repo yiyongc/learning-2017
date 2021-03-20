@@ -1,0 +1,38 @@
+package com.capgemini.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.capgemini.pojo.Login;
+
+@Controller
+public class EmployeeController {
+
+	@RequestMapping("/")
+	public void showIndexPage(ModelMap map) {
+		map.put("login", new Login());
+	}
+	
+	
+//	@RequestMapping(value="/loginForm", method=RequestMethod.POST)
+//	public String afterLogin(@RequestParam("username") String user, @RequestParam("password") String pass) {
+//		
+//		if(user.equals("tom") && pass.equals("tom123"))
+//			return "successPage";
+//		else
+//			return "./index";
+//	}
+	
+	@RequestMapping(value="/loginForm", method=RequestMethod.POST)
+	public String afterLogin(@ModelAttribute("login") Login login) {
+		
+		if(login.getUsername().equals("tom") && login.getPassword().equals("tom123"))
+			return "successPage";
+		else
+			return "./index";
+	}
+}

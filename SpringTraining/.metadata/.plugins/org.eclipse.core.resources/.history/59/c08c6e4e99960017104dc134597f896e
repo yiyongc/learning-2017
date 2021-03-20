@@ -1,0 +1,23 @@
+package com.capgemini.service;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capgemini.dao.IProductDao;
+import com.capgemini.pojo.Product;
+
+@Service("productService")
+public class ProductServiceImpl implements IProductService {
+	
+	@Autowired
+	private IProductDao productDao;
+
+	@Override
+	@Transactional
+	public void createProduct(Product product) {
+		productDao.createProduct(product);
+	}
+
+}

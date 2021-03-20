@@ -1,0 +1,16 @@
+package com.capgemini.pojo;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Account {
+
+	private int accountId;
+	private int customerId;
+	private String accountName;
+	private Date openDate;
+	private double balance;
+	
+}

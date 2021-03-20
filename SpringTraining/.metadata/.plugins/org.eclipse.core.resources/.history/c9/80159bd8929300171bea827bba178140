@@ -1,0 +1,8 @@
+package com.capgemini.pojo;
+
+public class Address {
+
+	private String unitNo;
+	private String streetName;
+	
+}

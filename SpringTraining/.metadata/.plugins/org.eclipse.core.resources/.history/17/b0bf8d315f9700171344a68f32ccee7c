@@ -1,0 +1,13 @@
+package com.capgemini.service;
+
+import com.capgemini.pojo.Employee;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Override
+	public void save(Employee employee) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

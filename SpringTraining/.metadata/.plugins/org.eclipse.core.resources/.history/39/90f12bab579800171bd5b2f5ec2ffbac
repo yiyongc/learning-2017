@@ -1,0 +1,18 @@
+var myCallBackExample = {
+			myFirstFunction : function (param1, param2, callback) {
+				if(arguments.length == 3) {
+					alert("3 args");
+				}
+			},
+			mySecondFunction : function() {
+				myCallBackExample.myFirstFunction(true, false, function() {
+					alert("this is a callback");
+				}()	
+				)	
+			}
+}
+
+function demo() {
+	
+	myCallBackExample.mySecondFunction();
+}

@@ -1,0 +1,6 @@
+function compute() {
+	var num1 = formAdd.num1.value;
+	var num2 = formAdd.num2.value;
+	
+	alert(num1);
+}

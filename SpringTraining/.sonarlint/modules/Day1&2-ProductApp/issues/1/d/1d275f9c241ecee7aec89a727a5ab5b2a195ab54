@@ -1,0 +1,8 @@
+
+squid:S11922"ZDefine a constant instead of duplicating this literal "<td style=\"padding:10\">" 7 times.(³²’ϋÿÿÿÿHΠ RCRITICALZ
+CODE_SMELL
+{squid:S11922"FDefine a constant instead of duplicating this literal "</td>" 7 times.(³²’ϋÿÿÿÿHΝ RCRITICALZ
+CODE_SMELL
+lsquid:S1161":Add the "@Override" annotation above this method signature(Οϋ©ΦϋÿÿÿÿHΟ RMAJORZ
+CODE_SMELL
+]squid:S1989"(Add a "try/catch" block for "getWriter".(οτ†ϊÿÿÿÿHΞ RMINORZVULNERABILITY
